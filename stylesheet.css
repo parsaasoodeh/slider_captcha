@@ -1,0 +1,38 @@
+#slider0 {
+    width: 350px;
+    background-color: #D8D8CA;
+    position: relative
+}
+
+@font-face {
+    font-family: "FontAwesome ";
+    src: url(resource/font-awesome/fonts/fontawesome-webfont.svg);
+}
+
+#slider1 {
+    width: 60px;
+    display: inline-block;
+    line-height: 1;
+    text-align: center;
+    background-color: white;
+    z-index: 2;
+}
+
+.icolor {
+    color: #595959;
+
+}
+
+#text {
+    display: flex;
+    position: absolute;
+    padding-left: 36%;
+    font-size: 16px;
+    z-index: 1;
+}
+
+#green-area {
+    background-color: green;
+    height: 100%;
+    position: absolute;
+}
